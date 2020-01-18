@@ -1,4 +1,4 @@
-These images have been built and tested on docker amd64, arm32v7 and arm64v8. This is a multi platform image.
+These images have been built and tested on docker i386, amd64, arm32v7 and arm64v8. This is a multi platform image.
 
 ## Usage ##
 
