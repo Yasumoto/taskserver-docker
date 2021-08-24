@@ -1,6 +1,9 @@
 #!/bin/sh
+
+set -eux
+
 VERSION="v1.1.0"
 
-docker build yasumoto/taskserver -t ${VERSION} --build-arg VERSION=${VERSION} .
+sudo docker build -t "yasumoto7/taskserver:${VERSION}" --build-arg VERSION="${VERSION}" .
 
-docker push yasumoto/taskserver:${VERSION}
+sudo docker push "yasumoto7/taskserver:${VERSION}"
