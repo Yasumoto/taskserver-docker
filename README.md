@@ -1,5 +1,7 @@
 # Taskserver Docker Images
 
+Based off https://github.com/yhaenggi/taskserver-docker
+
 This image is intended to run on amd64
 
 ## Usage ##
@@ -13,4 +15,7 @@ To explore around the image:
     ./build.sh
 
 ## Tags ##
+
+    Note that the tag should match upstream's tag with our changes on top.
+
    * v1.1.0
